@@ -1,6 +1,7 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import {filterImageFromURL, deleteLocalFiles} from './util/util.js';
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const { filterImageFromURL, deleteLocalFiles } = require('./util/util.js');
 
 
 
